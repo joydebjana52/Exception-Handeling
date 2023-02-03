@@ -1,0 +1,9 @@
+Exception:-
+	Abnormal Condition what you don't want in your proram.
+
+Exception specially means to Run time error.
+
+*) Divide by zero
+*) Null pointer exception
+*) Number format exception
+
