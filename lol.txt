@@ -1,5 +1,5 @@
 Exception:-
-	Abnormal Condition what you don't want in your proram.
+	Abnormal termination what you don't want in your proram.
 
 Exception specially means to Run time error.
 
@@ -7,3 +7,39 @@ Exception specially means to Run time error.
 *) Null pointer exception
 *) Number format exception
 
+Some keywords proided by Java to Handel exception :--
+	try
+	catch
+	finally
+	throw
+	throws
+
+*) The Throwable class is the superclass of all errors and exceptions in the Java language.
+
+			Throwable
+			    |
+			---------
+			|	   |
+		Exception   Error
+	(we can control) (we generally can't)
+	Runtime exception
+	IO exception
+	Null pntr ex.
+	
+
+*) Write down those codes that have a high probability of giving an error inside try block.
+
+try
+{
+	code----// possibility error.
+}
+catch(TypeExceptioon e)
+{
+	handling code----//
+	// sout(e.getMessage());
+}
+finally
+{
+	System.out.println("I am in finally block");
+	System.out.println("Closing all the resources");
+}
